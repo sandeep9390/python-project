@@ -1,0 +1,13 @@
+num1=(int(input("gvie a first number:")))
+num2=int(int(input("give a second number:")))
+operator=input("give a operator symbol:")
+if operator=="+":
+    print(f"additon:{num1+num2}")
+elif operator=="-":
+    print(f"subraction:{num1-num2}")
+elif operator=="*":
+    print(f"multiplication:{num1*num2}")
+elif operator=="/":
+      print(f"division:{num1/num2}")
+else:
+     print("you are given in valid digits")
