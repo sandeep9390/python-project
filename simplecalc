@@ -10,4 +10,4 @@ elif operator=="*":
 elif operator=="/":
       print(f"division:{num1/num2}")
 else:
-     print("you are given in valid digits")
+     print("you are given invalid digits")
